@@ -56,17 +56,16 @@
 }
 
 
-.dropdown_content:hover .dropdown_submenu1{
+#product2:hover .dropdown_submenu1{
     display: block;
 }
 
 .dropdown_submenu1{
-    background-color: aquamarine;
+    background-color: rgb(124, 173, 252);
     left: 150px;
     top: 0px;
     position: absolute;
 }
-
 
 
 
@@ -80,7 +79,12 @@
     top: 0px;
     position: absolute;
 }
-
-#product2:hover .dropdown_submenu2 {
+.dropdown_button:hover{
+    background-color: #447ac5;
+}
+.dropdown_content:hover .dropdown_submenu1{
     display: block;
+}
+.dropdown:hover .dropdown_button{
+    background-color: #447ac5;
 }
